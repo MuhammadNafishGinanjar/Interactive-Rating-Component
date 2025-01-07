@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container mt-5 mb-5" id="first-page">
+      <div class="row">
+        <div class="col-12">
+          <img
+            class="mb-3 p-3 rounded-circle"
+            id="star"
+            src="images/icon-star.svg"
+            alt=""
+          />
+          <h1 class="text-white">How did we do?</h1>
+          <p id="sub-text">
+            Please let us know how we did with your support request. All feedback is
+            appreciated to help us improve our offering!
+          </p>
+
+          <div class="mt-4 mb-4 d-flex justify-content-between" id="group-btn">
+            <button class="rounded-circle" id="buttons" onclick="click1()">1</button>
+            <button class="rounded-circle ml-2" id="buttons" onclick="click2()">2</button>
+            <button class="rounded-circle ml-2" id="buttons" onclick="click3()">3</button>
+            <button class="rounded-circle ml-2" id="buttons" onclick="click4()">4</button>
+            <button class="rounded-circle ml-2" id="buttons" onclick="click5()">5</button>
+          </div>
+
+          <button
+            class="text-center btn-block p-2"
+            id="submit-btn"
+            onclick="submit()"
+          >
+            SUBMIT
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="container d-none mt-5 mb-5" id="thankyou-page">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center text-center"
+      >
+        <img class="mt-4" src="images/illustration-thank-you.svg" alt="" />
+        <p class="p-2 mt-4" id="ty-rating">You selected <span id="rate-display"></span> out of 5</p>
+        <h1 class="text-white mt-4">Thank you!</h1>
+        <p class="p-2" id="ty-last">
+          We appreciate you taking the time to give a rating. If you ever need more
+          support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <!-- Thank you state end -->
+
+    <footer>
+      <div class="attribution mt-3">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/MuhammadNafishGinanjar">Raden Muhammad Nafish Ginanjar</a>.
+      </div>
+    </footer>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- index.js -->
+    <script src="index.js"></script>
+  </body>
+</html>

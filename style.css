@@ -1,0 +1,70 @@
+body {
+  background-color: #141519;
+  font-family: "Overpass", serif;
+}
+
+#first-page {
+  width: 450px;
+  height: 430px;
+  border-radius: 30px;
+  background-color: #1e252f;
+  padding: 49px;
+}
+
+#thankyou-page {
+  width: 450px;
+  height: 430px;
+  border-radius: 30px;
+  background-color: #1e252f;
+  padding: 20px;
+}
+
+#star {
+  background-color: #272e38;
+}
+
+#sub-text {
+  color: #a5a7aa;
+}
+
+#buttons {
+  height: 50px;
+  width: 50px;
+  background-color: #272e38;
+  color: #a5a7aa;
+  border: none;
+  transition: 0.3s;
+}
+
+#buttons:hover {
+  background-color: #fc7613;
+  color: #1e252f;
+}
+
+#buttons:active {
+  background-color: white;
+}
+
+#submit-btn {
+  background-color: #fc7613;
+  color: #1e252f;
+  border-radius: 30px;
+  letter-spacing: 5px;
+  border: none;
+  transition: 0.3s;
+}
+
+#submit-btn:hover {
+  background-color: white;
+}
+
+#ty-rating {
+  color: #fc7613;
+  background-color: #272e38;
+  width: 50%;
+  border-radius: 30px;
+}
+
+#ty-last {
+  color: #a5a7aa;
+}
