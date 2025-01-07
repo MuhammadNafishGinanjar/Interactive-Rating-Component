@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-_PZ44wtyGf)
-- Live Site URL: [](https://muhammadnafishginanjar.github.io/Interactive-Rating-Component/)
+- Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-solution-_PZ44wtyGf
+- Live Site URL: https://muhammadnafishginanjar.github.io/Interactive-Rating-Component/
 
 ## My process
 
